@@ -99,8 +99,6 @@ int main() {
     total += rDown;
     total += rRight;
 
-    cout << (startStraightPaths - 1) * rUpRight << endl;
-
     total += (startStraightPaths - 1) * rUpRight;
     total += (startStraightPaths - 1) * rUpLeft;
     total += (startStraightPaths - 1) * rDownLeft;
